@@ -62,6 +62,7 @@ public class Taxi {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 
     private Long id;
+    private String pum;
     private String nombrePropietario;
     private String marca;
     private String modelo;
