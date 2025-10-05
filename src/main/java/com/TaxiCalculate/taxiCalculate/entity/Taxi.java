@@ -62,11 +62,14 @@ public class Taxi {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 
     private Long id;
+    private String pum;
     private String nombrePropietario;
     private String marca;
     private String modelo;
     private String placas;
     private double valorFactura;
+
+    private String fecha = "05102025";
 
 
     public double getCostoLicencia(){
