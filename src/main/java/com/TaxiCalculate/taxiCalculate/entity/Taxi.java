@@ -69,6 +69,8 @@ public class Taxi {
     private String placas;
     private double valorFactura;
 
+    private String fecha = "05102025";
+
 
     public double getCostoLicencia(){
         return valorFactura * 0.02;
